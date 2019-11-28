@@ -1,0 +1,20 @@
+
+<div class="container">
+    <body bgcolor="#ffff99">
+
+<h1>Login</h1>
+
+    <font color="red">{{msg}}</font>
+<form method="post">
+    {% csrf_token %}
+  {{form.as_p}}
+
+    <button type ="submit" >OK</button>
+</form>
+     <p>click button Register to create new account</p>
+
+    <a href="/register/"><button>Register</button>
+
+</div>
+
+

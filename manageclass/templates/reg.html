@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5">
+    <title>Title</title>
+</head>
+<body>
+<h1>Classroom Management System (Jummom Collage)</h1>
+<body bgcolor="#ffff99">
+<p><div><form  action="" method="POST">
+    {% csrf_token %}
+   <div class="fieldWrapper">
+
+            {{ field.errors }}
+
+      <center> <table border="1" width="100%" >
+            <tr >
+                <td>Class Room</td>
+                 <td>Course</td>
+                <td>Day</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+
+
+            </tr>
+          <tr>
+
+
+    <td height="30px" align="center" >{{formreg.Class}}</td>
+    <td align="center">{{formreg.Cours}}</td>
+    <td>{{formreg.favorite_fruit}}</td>
+     <br>
+    <td align="center">{{formreg.a}}</td>
+    <td align="center">{{formreg.b}}</td>
+    <td align="center">{{formreg.c}}</td>
+    <td align="center">{{formreg.d}}</td>
+
+    <td align="center">{{formreg.e}}</td>
+    <td align="center">{{formreg.f}}</td>
+    <td align="center">{{formreg.g}}</td>
+    <td align="center">{{formreg.h}}</td>
+
+    <td align="center">{{formreg.m}}</td>
+    <td align="center">{{formreg.n}}</td>
+    <td align="center">{{formreg.l}}</td>
+    <td align="center">{{formreg.w}}</td>
+
+<br>
+  </tr>
+          <br>
+ </table></center>
+<br>
+       <center> <button type="submit" id="dd">Add </button></center>
+
+</form></div></p>
+
+ <center> <table border="1" width="100%" >
+     <tr>
+        <td>211</td>
+        <td>212</td>
+        <td>213</td>
+
+     </tr>
+     <tr>
+
+         <td width="5%">  <center> <table border="1" width="100%" >
+             <tr>
+                 <td>day</td>
+                 <td >1</td>
+                 <td>2</td>
+                 <td>3</td>
+                 <td>4</td>
+                 <td>5</td>
+                 <td>6</td>
+                 <td>7</td>
+                 <td>8</td>
+                 <td>9</td>
+                 <td>10</td>
+                 <td>11</td>
+                 <td>12</td>
+
+             </tr>
+              <tr>
+
+
+
+
+                 <td>sun</td>
+
+
+                 <td {% for post1 in post1 %}{%if post1.a == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.b == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.c == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.d == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.e == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.f == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.g == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.h == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.l == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.m == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.n == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.w == 1 and post1.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+
+
+              <tr>
+                 <td>Mon</td>
+
+
+                 <td {% for post1 in post1 %}{%if post1.a == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.b == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.c == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.d == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.e == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.f == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.g == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.h == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.l == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.m == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.n == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.w == 1 and post1.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+              <tr>
+                 <td>Tus</td>
+
+
+                 <td {% for post1 in post1 %}{%if post1.a == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.b == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.c == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.d == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.e == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.f == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.g == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.h == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.l == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.m == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.n == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.w == 1 and post1.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                 <td>Wed</td>
+
+
+                 <td {% for post1 in post1 %}{%if post1.a == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.b == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.c == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.d == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.e == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.f == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.g == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.h == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.l == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.m == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.n == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.w == 1 and post1.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                  <td>Ther</td>
+
+
+                 <td {% for post1 in post1 %}{%if post1.a == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.b == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.c == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.d == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post1 in post1 %}{%if post1.e == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.f == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.g == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.h == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.l == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.m == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.n == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post1 in post1 %}{%if post1.w == 1 and post1.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+         </table>
+
+         </td>
+          <td width="5%">  <center> <table border="1" width="100%" >
+             <tr>
+                 <td>day</td>
+                 <td >1</td>
+                 <td>2</td>
+                 <td>3</td>
+                 <td>4</td>
+                 <td>5</td>
+                 <td>6</td>
+                 <td>7</td>
+                 <td>8</td>
+                 <td>9</td>
+                 <td>10</td>
+                 <td>11</td>
+                 <td>12</td>
+
+             </tr>
+              <tr>
+
+
+
+
+                 <td>sun</td>
+
+
+                 <td {% for post2 in post2 %}{%if post2.a == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.b == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.c == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.d == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.e == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.f == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.g == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.h == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.l == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.m == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.n == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.w == 1 and post2.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+
+
+              <tr>
+                 <td>Mon</td>
+
+
+                  <td {% for post2 in post2 %}{%if post2.a == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.b == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.c == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.d == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.e == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.f == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.g == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.h == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.l == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.m == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.n == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.w == 1 and post2.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+              <tr>
+                 <td>Tus</td>
+
+
+                 <td {% for post2 in post2 %}{%if post2.a == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.b == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.c == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.d == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.e == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.f == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.g == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.h == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.l == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.m == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.n == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.w == 1 and post2.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                 <td>Wed</td>
+
+
+                 <td {% for post2 in post2 %}{%if post2.a == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.b == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.c == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.d == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.e == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.f == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.g == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.h == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.l == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.m == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.n == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.w == 1 and post2.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                  <td>Ther</td>
+
+
+                 <td {% for post2 in post2 %}{%if post2.a == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.b == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.c == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.d == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post2 in post2 %}{%if post2.e == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.f == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.g == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.h == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.l == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.m == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.n == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post2 in post2 %}{%if post2.w == 1 and post2.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+         </table>
+
+         </td>
+          <td width="5%">  <center> <table border="1" width="100%" >
+             <tr>
+                 <td>day</td>
+                 <td >1</td>
+                 <td>2</td>
+                 <td>3</td>
+                 <td>4</td>
+                 <td>5</td>
+                 <td>6</td>
+                 <td>7</td>
+                 <td>8</td>
+                 <td>9</td>
+                 <td>10</td>
+                 <td>11</td>
+                 <td>12</td>
+
+             </tr>
+              <tr>
+
+
+
+
+                 <td>sun</td>
+
+
+                 <td {% for post3 in post3 %}{%if post3.a == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.b == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.c == 1 and post3.day == "Sunday"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.d == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post3 in post3 %}{%if post3.e == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.f == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.g == 1 and post3.day == "Sunday"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.h == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.l == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.m == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.n == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td
+                 <td {% for post3 in post3 %}{%if post3.w == 1 and post3.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+
+
+              <tr>
+                 <td>Mon</td>
+
+
+                  <td {% for post3 in post3 %}{%if post3.a == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.b == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.c == 1 and post3.day == "Mon"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.d == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post3 in post3 %}{%if post3.e == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.f == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.g == 1 and post3.day == "Mon"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.h == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.l == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.m == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.n == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td
+                 <td {% for post3 in post3 %}{%if post3.w == 1 and post3.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+              <tr>
+                 <td>Tus</td>
+
+
+                  <td {% for post3 in post3 %}{%if post3.a == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.b == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.c == 1 and post3.day == "Tus"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.d == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post3 in post3 %}{%if post3.e == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.f == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.g == 1 and post3.day == "Tus"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.h == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.l == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.m == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.n == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td
+                 <td {% for post3 in post3 %}{%if post3.w == 1 and post3.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                 <td>Wed</td>
+
+
+                 <td {% for post3 in post3 %}{%if post3.a == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.b == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.c == 1 and post3.day == "Wed"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.d == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post3 in post3 %}{%if post3.e == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.f == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.g == 1 and post3.day == "Wed"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.h == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.l == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.m == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.n == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td
+                 <td {% for post3 in post3 %}{%if post3.w == 1 and post3.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+              <tr>
+                  <td>Ther</td>
+
+
+                 <td {% for post3 in post3 %}{%if post3.a == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.b == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.c == 1 and post3.day == "Ther"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.d == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post3 in post3 %}{%if post3.e == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.f == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.g == 1 and post3.day == "Ther"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.h == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.l == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.m == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post3 in post3 %}{%if post3.n == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td
+                 <td {% for post3 in post3 %}{%if post3.w == 1 and post3.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+         </table>
+
+         </td>
+
+
+
+
+ <center> <table border="1" width="100%" >
+     <tr>
+        <td>214</td>
+        <td>215</td>
+        <td>301</td>
+
+     </tr>
+     <tr>
+         <td width="5%">  <center> <table border="1" width="100%" >
+             <tr>
+                 <td>day</td>
+                 <td >1</td>
+                 <td>2</td>
+                 <td>3</td>
+                 <td>4</td>
+                 <td>5</td>
+                 <td>6</td>
+                 <td>7</td>
+                 <td>8</td>
+                 <td>9</td>
+                 <td>10</td>
+                 <td>11</td>
+                 <td>12</td>
+
+             </tr>
+              <tr>
+
+
+
+
+                 <td>sun</td>
+
+
+                 <td {% for post4 in post4 %}{%if post4.a == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.b == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.c == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.d == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.e == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.f == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.g == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.h == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.l == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.m == 1 and post4.day == "Sunday"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.n == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.w == 1 and post4.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+
+
+              <tr>
+                 <td>Mon</td>
+
+
+                  <td {% for post4 in post4 %}{%if post4.a == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.b == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.c == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.d == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.e == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.f == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.g == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.h == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.l == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.m == 1 and post4.day == "Mon"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.n == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.w == 1 and post4.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+              <tr>
+                 <td>Tus</td>
+
+
+                 <td {% for post4 in post4 %}{%if post4.a == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.b == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.c == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.d == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.e == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.f == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.g == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.h == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.l == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.m == 1 and post4.day == "Tus"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.n == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.w == 1 and post4.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                 <td>Wed</td>
+
+
+                 <td {% for post4 in post4 %}{%if post4.a == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.b == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.c == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.d == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.e == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.f == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.g == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.h == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.l == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.m == 1 and post4.day == "Wed"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.n == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.w == 1 and post4.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                  <td>Ther</td>
+
+
+                 <td {% for post4 in post4 %}{%if post4.a == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.b == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.c == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.d == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post4 in post4 %}{%if post4.e == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.f == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.g == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.h == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.l == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.m == 1 and post4.day == "Ther"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.n == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post4 in post4 %}{%if post4.w == 1 and post4.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+         </table>
+
+         </td>
+          <td width="5%">  <center> <table border="1" width="100%" >
+             <tr>
+                 <td>day</td>
+                 <td >1</td>
+                 <td>2</td>
+                 <td>3</td>
+                 <td>4</td>
+                 <td>5</td>
+                 <td>6</td>
+                 <td>7</td>
+                 <td>8</td>
+                 <td>9</td>
+                 <td>10</td>
+                 <td>11</td>
+                 <td>12</td>
+
+             </tr>
+              <tr>
+
+
+
+
+                 <td>sun</td>
+
+
+                 <td {% for post5 in post5 %}{%if post5.a == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.b == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.c == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.d == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.e == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.f == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.g == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post5 in post5 %}{%if post5.h == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.l == 1 and post5.day == "Sunday"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.m == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.n == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.w == 1 and post5.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+
+
+              <tr>
+                 <td>Mon</td>
+
+
+
+                 <td {% for post5 in post5 %}{%if post5.a == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.b == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.c == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.d == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.e == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.f == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.g == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post5 in post5 %}{%if post5.h == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.l == 1 and post5.day == "Mon"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.m == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.n == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.w == 1 and post5.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+              <tr>
+                 <td>Tus</td>
+
+
+                 <td {% for post5 in post5 %}{%if post5.a == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.b == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.c == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.d == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.e == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.f == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.g == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post5 in post5 %}{%if post5.h == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.l == 1 and post5.day == "Tus"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.m == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.n == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.w == 1 and post5.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                 <td>Wed</td>
+
+
+                <td {% for post5 in post5 %}{%if post5.a == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.b == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.c == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.d == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.e == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.f == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.g == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post5 in post5 %}{%if post5.h == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.l == 1 and post5.day == "Wed"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.m == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.n == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.w == 1 and post5.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                  <td>Ther</td>
+
+
+                  <td {% for post5 in post5 %}{%if post5.a == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.b == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.c == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.d == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post5 in post5 %}{%if post5.e == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.f == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.g == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post5 in post5 %}{%if post5.h == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.l == 1 and post5.day == "Ther"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.m == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.n == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post5 in post5 %}{%if post5.w == 1 and post5.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+         </table>
+
+         </td>
+         <td width="5%">  <center> <table border="1" width="100%" >
+             <tr>
+                 <td>day</td>
+                 <td >1</td>
+                 <td>2</td>
+                 <td>3</td>
+                 <td>4</td>
+                 <td>5</td>
+                 <td>6</td>
+                 <td>7</td>
+                 <td>8</td>
+                 <td>9</td>
+                 <td>10</td>
+                 <td>11</td>
+                 <td>12</td>
+
+             </tr>
+              <tr>
+
+
+
+
+                 <td>sun</td>
+
+
+                 <td {% for post6 in post6 %}{%if post6.a == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.b == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.c == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.d == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.e == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.f == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.g == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.h == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.l == 1 and post6.day == "Sunday"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.m == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.n == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.w == 1 and post6.day == "Sunday" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+
+
+              <tr>
+                 <td>Mon</td>
+
+
+                <td {% for post6 in post6 %}{%if post6.a == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.b == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.c == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.d == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.e == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.f == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.g == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.h == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.l == 1 and post6.day == "Mon"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.m == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.n == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.w == 1 and post6.day == "Mon" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+              <tr>
+                 <td>Tus</td>
+
+
+                 <td {% for post6 in post6 %}{%if post6.a == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.b == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.c == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.d == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.e == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.f == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.g == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.h == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.l == 1 and post6.day == "Tus"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.m == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.n == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.w == 1 and post6.day == "Tus" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+             </tr>
+              <tr>
+                 <td>Wed</td>
+
+
+                <td {% for post6 in post6 %}{%if post6.a == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.b == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.c == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.d == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.e == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.f == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.g == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.h == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.l == 1 and post6.day == "Wed"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.m == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.n == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.w == 1 and post6.day == "Wed" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+              <tr>
+                  <td>Ther</td>
+
+
+                 <td {% for post6 in post6 %}{%if post6.a == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.b == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.c == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.d == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                <td {% for post6 in post6 %}{%if post6.e == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {%for post6 in post6 %}{%if post6.f == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.g == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.h == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.l == 1 and post6.day == "Ther"%} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.m == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.n == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+                 <td {% for post6 in post6 %}{%if post6.w == 1 and post6.day == "Ther" %} bgcolor="#FF0000" {%endif%}{%endfor%}
+                 ></td>
+
+             </tr>
+         </table>
+
+         </td>
+
+
+     </tr>
+ </table>
+ </center>
+</body>
+</html>
